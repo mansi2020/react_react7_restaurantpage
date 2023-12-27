@@ -1,0 +1,46 @@
+.restaurant_card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width:300px;
+    height:200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant_details {
+    margin-bottom: 10px;
+  }
+  
+  .restaurant_name_rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .restaurant_star {
+    color: #ffbb00; /* Change color for the stars */
+  }
+  
+  .restaurant_star i {
+    font-size: 18px;
+  }
+  
+  .restaurant_star i + i {
+    margin-left: 5px;
+  }
+  
+  .restaurant_food {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .restaurant_food p {
+    margin-right: 10px;
+  }
+  
+  /* Add more styles as needed */
+  

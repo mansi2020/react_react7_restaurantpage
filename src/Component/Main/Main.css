@@ -1,0 +1,10 @@
+#main_restaurant_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+.main_container{
+    margin-top:100px;
+}
