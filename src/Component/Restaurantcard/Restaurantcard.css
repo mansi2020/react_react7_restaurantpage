@@ -1,46 +1,60 @@
 .restaurant_card {
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    width:300px;
-    height:200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .restaurant_details {
-    margin-bottom: 10px;
-  }
-  
-  .restaurant_name_rating {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 8px;
-    font-weight: bold;
-  }
-  
-  .restaurant_star {
-    color: #ffbb00; /* Change color for the stars */
-  }
-  
-  .restaurant_star i {
-    font-size: 18px;
-  }
-  
-  .restaurant_star i + i {
-    margin-left: 5px;
-  }
-  
-  .restaurant_food {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .restaurant_food p {
-    margin-right: 10px;
-  }
-  
-  /* Add more styles as needed */
-  
+  background: linear-gradient(rgb(154, 154, 154), black);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 250px;
+  box-shadow: 10px 4px 10px rgba(90, 90, 90, 0.6);
+  color: white;
+}
+
+.restaurant_details {
+  margin-bottom: 10px;
+  height: 120px;
+}
+.restaurant_food {
+  height: 80px;
+}
+
+.restaurant_name_rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.restaurant_star i {
+  font-size: 12px;
+}
+
+.restaurant_star i + i {
+  margin-left: 5px;
+}
+
+.restaurant_food {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.restaurant_food p {
+  margin-right: 10px;
+}
+
+/* card icon*/
+.fa-location-dot {
+  margin-right: 10px;
+  color: rgb(194, 141, 244);
+}
+
+.fa-utensils {
+  color: rgb(255, 199, 115);
+  margin-right: 10px;
+}
+
+/* visit menu */
+.restaurant_food > p:last-child {
+  color: rgb(102, 102, 243);
+}

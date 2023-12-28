@@ -1,10 +1,50 @@
-#main_restaurant_list{
-    display: flex;
-    flex-wrap: wrap;
-    gap:20px;
-    align-items: center;
-    justify-content: center;
+#main_restaurant_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
-.main_container{
-    margin-top:100px;
+/* main container */
+.main_container {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+/* input field style */
+.search-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-input,
+.rating-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.rating-input {
+  width: 50px;
+
+  background-color: #f5f5f5;
+}
+
+/* inputs conatiner */
+.main_inputs {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.main_ratings > label {
+  font-size: larger;
+  font-weight: 600;
+  margin-right: 10px;
 }

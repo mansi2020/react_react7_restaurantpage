@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import Button from "../Button/Button";
 import "./header.css";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Header() {
   /* Header menu list */
-  let menuList = ["Home","Quote", "Resturants", "Foods", "Contact"];
-  useEffect(()=>{
-    Aos.init({duration:2000});
-  },[]);
+  let menuList = ["Home", "Quote", "Resturants", "Foods", "Contact"];
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
 
   return (
     // header section
@@ -23,9 +23,7 @@ function Header() {
           return <li>{list}</li>;
         })}
       </ul>
-      <Button
-        buttonText="Get started" id="headerButton"
-      ></Button>
+      <Button buttonText="Get started" id="headerButton"></Button>
     </header>
   );
 }
